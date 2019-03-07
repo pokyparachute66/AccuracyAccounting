@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+   
+   
+   
+   
+    <div class="services-section-1">
+     <div class="background-cover"></div>
+      <div class="navigation">
+        <ol class="main-list">
+            <li class="nav-items"><a class="nav-link" href="./index.html">Home</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./contact.html">Contact</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./services.html">Services</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./team.html">Team</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./history.html">History</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./schedule.html">Schedule</a> </li>
+        </ol>
+    </div>
+     
+      <div class="sec-1-headings center">
+       <div >Services </div>
+
+       </div>
+       
+       <div class="sec-1-subheading center">We provide many different services that are guarenteed to help you with all of your financial needs</div>
+   </div>
+   
+   
+   <div class="services-sec-2">
+      <div class="background-cover-services"></div>
+       <div class="services-wrapper">
+           
+            <div class="taxes">
+                <div class="taxes-word">Taxes</div>
+                <div class="services-types">
+                    <div class="services-item">Corporate and Non-Profit</div>
+                    <div class="services-item">Personal</div>
+                    <div class="services-item">State and Local Tax</div>
+                    <div class="services-item">Sales or Use Tax</div>
+                </div>
+            </div>
+            
+           <div class="consulting">
+               <div class="consulting-word center">Consulting</div>
+                <div class="services-types">
+                    <div class="services-item">Implementation of Accounts</div>
+                    <div class="services-item">Cybersecurity</div>
+                    <div class="services-item">Establishment of Internal Controls</div>
+                    <div class="services-item">Development of Financial Plans</div>
+                </div>
+            </div>
+            
+           <div class="finances">
+           <div class="finances-word">Audits</div>
+             <div class="services-types  ">
+                    <div class="services-item">Financial Statement Audits</div>
+                    <div class="services-item">Compliance Audits</div>
+                    <div class="services-item">Employee Benefit Plan Audits</div>
+                    <div class="services-item">Fraud Investigation</div>
+                </div>
+           </div>
+           
+           <div class="business">
+           <div class="business-word">Business</div>
+            <div class="services-types ">
+                    <div class="services-item">Accounts Payable</div>
+                    <div class="services-item">Accounts Recievable</div>
+                    <div class="services-item">General Accounting Support</div>
+                    <div class="services-item">Certifed Audits</div>
+                </div>
+           </div>
+           
+       </div>
+   </div>
+   
+   
+   
+         <div class="footer">
+       <div id="map"></div>
+        
+        <div class="footer-info">
+            <div class="footer-heading">Accuracy Accounting</div>
+            <div class="footer-subheading">Accounting done right</div>
+            <div class="links-footer-wrapper">
+            <a class="footer-links" href="./contact.html">Contact Us</a>
+            <a class="footer-links" href="./schedule.html">Schedule now</a>
+            </div>
+            <div class="icon-wrapper">
+            <i class="fab fa-facebook-square fb fa-9x"></i>
+            <i class="fab fa-twitter  tw fa-9x"></i>
+             <i class="fab fa-instagram  ig fa-9x"></i>
+             </div>
+           <div class="footer-copyright">All images are taken from pexels.com are under the Pexels license which allows for completely free use of all images without attribution. The social media icons are taken from fontawesome.com which are free for use. All other icons are created by me and all of the code is completely original.</div>
+        </div>
+        
+   </div>
+   
+   
+   
+   
+   
+   <script>
+    function initMap() {
+        var location = {lat: 44.979412, lng: -93.272538};
+        var location2 = {lat: 40.712776, lng:-74.005974 };
+        var location3 = {lat: 37.360430, lng:-121.831638 };
+        var location4 = {lat: 36.169941, lng:-115.139832};
+          var location5 = {lat: 43.966133, lng:-84.996690};
+          var location6 = {lat: 42.991088, lng:-89.386649};
+         var location7 = {lat: 40.785741, lng:-96.856891};
+         var location8 = {lat: 35.512946, lng:-89.587489};
+         var location9 = {lat: 39.718147, lng:-105.020307};
+        
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+        
+                var marker = new google.maps.Marker({
+            position: location2,
+            map: map
+        });
+        
+                var marker = new google.maps.Marker({
+            position: location3,
+            map: map
+        });
+        
+                var marker = new google.maps.Marker({
+            position: location4,
+            map: map
+        });
+        
+           var marker = new google.maps.Marker({
+            position: location5,
+            map: map
+        });
+        
+           var marker = new google.maps.Marker({
+            position: location6,
+            map: map
+        });
+        
+         var marker = new google.maps.Marker({
+            position: location7,
+            map: map
+        });
+        
+         var marker = new google.maps.Marker({
+            position: location8,
+            map: map
+        });
+        
+         var marker = new google.maps.Marker({
+            position: location9,
+            map: map
+        });
+    }
+    
+    </script>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ7jacxXaVlAjom85cHwRv3fq9YoD0VUA&callback=initMap">
+    </script>
+   
+   
+   
+    <script src="main.js"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+   
+    
+   <div class="home-section-1">
+     <div class="background-cover"></div>
+      <div class="navigation">
+        <ol class="main-list">
+            <li class="nav-items"><a class="nav-link" href="./index.html">Home</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./contact.html">Contact</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./services.html">Services</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./team.html">Team</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./history.html">History</a> </li>
+            <li class="nav-items"><a class="nav-link" href="./schedule.html">Schedule</a> </li>
+        </ol>
+    </div>
+     
+      <div class="sec-1-headings center">
+       <div >Accuracy </div>
+       <div >Accounting </div>
+       </div>
+       
+       <div class="sec-1-subheading center">Accounting done the right way</div>
+       <button type="button" class="sec-1-btn center"><span class="btn-info"><a class="scedule-link" href="./schedule.html">Schedule now</a></span></button>
+   </div>
+   
+   
+   <div class="section-2">
+       <div class="top-border"></div>
+       
+       <div class="sec-2-heading center">Why Accuracy?</div>
+       
+       <div class="sec-2-images">
+          <img src="Img/Stopwatch.svg" class="main-image" alt="Stopwatch">
+          <img src="Img/Shield.svg" class="main-image" alt="shield">
+           <img src="Img/Lock.svg" class="main-image" alt="Lock">
+       </div>
+       
+       <div class="sec-2-img-heading">
+           <div class="fast">Fast</div>
+           <div class="safe">Safe</div>
+           <div>Secure</div>
+       </div>
+       
+       <div class="sec-2-img-info">
+           <div class="sec-2-info">We strive to complete our tasks in a fast, time efficient manner that allows customers to spend less time worrying about their money, and more time doing what they enjoy. We employ well trained professionals that are able to complete their tasks quickly, but still do high quality work. </div>
+           <div class="sec-2-info">Providing a safe financial experience is an important thing to us. We value the saftey of our clients information, therefore, we guarantee that your financial information stays between you and your advisor, no one else.</div>
+           <div class="sec-2-info">At Accuracy, security is one of our top priorities. We have invested heavily in bringing in top security experts to set up a virtually impenetrable security system. With this in place, we can ensure that every customer's infomation will be completely secure. </div>
+       </div>
+       
+   </div>
+   
+   
+   <div class="section-3">
+       <div class="background-cover-2"></div>
+       <div class="sec-3-heading center">Our Mission</div>
+       
+       <div class="sec-3-info center ">Since 2000, Accuracy has been providing quality accounting services to individuals and businesses of all sizes. Our goal is to help you achieve your goals. We can help fill a need at your company by preforming related accounting duties, or help you get your busniess set up. We pride our company on our quality of professional services and employees that strive to help our clients efficiently meet the needs of their specific industry.</div>
+       
+   </div>
+   
+   
+   
+   <div class="footer">
+       <div id="map"></div>
+        
+        <div class="footer-info">
+            <div class="footer-heading">Accuracy Accounting</div>
+            <div class="footer-subheading">Accounting done right</div>
+            <div class="links-footer-wrapper">
+            <a class="footer-links" href="./contact.html">Contact Us</a>
+            <a class="footer-links" href="./schedule.html">Schedule now</a>
+            </div>
+            <div class="icon-wrapper">
+            <i class="fab fa-facebook-square fb fa-9x"></i>
+            <i class="fab fa-twitter  tw fa-9x"></i>
+             <i class="fab fa-instagram  ig fa-9x"></i>
+             </div>
+           <div class="footer-copyright">All images are taken from pexels.com are under the Pexels license which allows for completely free use of all images without attribution. The social media icons are taken from fontawesome.com which are free for use. The map is powered by google API from developers.google.com. All other icons are created by me and all of the code is completely original.</div>
+        </div>
+        
+   </div>
+   
+   
+   
+   
+   
+   
+   <script>
+    function initMap() {
+        var location = {lat: 44.979412, lng: -93.272538};
+        var location2 = {lat: 40.712776, lng:-74.005974 };
+        var location3 = {lat: 37.360430, lng:-121.831638 };
+        var location4 = {lat: 36.169941, lng:-115.139832};
+          var location5 = {lat: 43.966133, lng:-84.996690};
+          var location6 = {lat: 42.991088, lng:-89.386649};
+         var location7 = {lat: 40.785741, lng:-96.856891};
+         var location8 = {lat: 35.512946, lng:-89.587489};
+         var location9 = {lat: 39.718147, lng:-105.020307};
+        
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+        
+                var marker = new google.maps.Marker({
+            position: location2,
+            map: map
+        });
+        
+                var marker = new google.maps.Marker({
+            position: location3,
+            map: map
+        });
+        
+                var marker = new google.maps.Marker({
+            position: location4,
+            map: map
+        });
+        
+           var marker = new google.maps.Marker({
+            position: location5,
+            map: map
+        });
+        
+           var marker = new google.maps.Marker({
+            position: location6,
+            map: map
+        });
+        
+         var marker = new google.maps.Marker({
+            position: location7,
+            map: map
+        });
+        
+         var marker = new google.maps.Marker({
+            position: location8,
+            map: map
+        });
+        
+         var marker = new google.maps.Marker({
+            position: location9,
+            map: map
+        });
+    }
+    
+    </script>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ7jacxXaVlAjom85cHwRv3fq9YoD0VUA&callback=initMap">
+    </script>
+   
+   
+    <script src="main.js"></script>
+</body>
+
+
+</html>

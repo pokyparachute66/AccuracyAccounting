@@ -1,0 +1,1934 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body {
+    height: 100%;
+}
+/* center reset */
+
+.center {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* section one styles */
+
+.home-section-1 {
+    width: 100%;
+    height: 1000px;
+    background: url(accounting-business-close-up-1418347.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.contact-section-1 {
+    width: 100%;
+    height: 1000px;
+    background: url(business-connection-contact-955081.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.services-section-1 {
+    width: 100%;
+    height: 1000px;
+    background: url(adult-beard-business-845451.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.team-section-1 {
+    width: 100%;
+    height: 1000px;
+    background: url(adults-analysis-brainstorming-1661004.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+.history-section-1 {
+    width: 100%;
+    height: 1000px;
+    background: url(adults-analysis-banking-1451447.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.schedule-section-1 {
+    width: 100%;
+    height: 1000px;
+    background: url(calendar-dates-desk-862731.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.background-cover {
+    background: linear-gradient(to right, #2ad6ff, #0069ff);
+    width: 100%;
+    height: 1000px;
+    opacity: .7;
+    position: absolute;
+    z-index: 20;
+}
+
+
+.scedule-link {
+    text-decoration: none;
+    color: black;
+}
+
+.sec-1-headings {
+    position: absolute;
+    color: white;
+    top: 40%;
+    text-align: center;
+    font-size: 120px;
+    z-index: 200;
+}
+
+.sec-1-subheading {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 59%;
+    text-align: center;
+    z-index: 2000;
+}
+
+.sec-1-btn {
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    border-radius: 60px;
+    top: 70%;
+    background: white;
+    z-index: 2000;
+    outline: none;
+}
+
+.sec-1-btn:active {
+    top: 71%;
+}
+
+.btn-info {
+    color: black;
+    font-size: 20px;
+    
+}
+
+
+.main-list {
+    list-style-type: none;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    font-size: 29px;
+    color: white;
+    top: 3%;
+    z-index: 2000;
+}
+
+
+.nav-items {
+    margin-right: 4%;
+    color: white;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white
+}
+
+/* Section one stlye end */
+
+/* section 2 style */
+
+.section-2 {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.top-border {
+    border: 1px solid black;
+    top: 6%;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sec-2-heading {
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    top: 15%;
+}
+
+.sec-2-images {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 30%;
+}
+
+
+.sec-2-img-heading {
+    display: grid;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 50px;
+    top: 55%;
+    position: absolute;
+}
+
+.sec-2-img-info {
+    display: grid;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    top: 70%;
+    position: absolute;
+}
+
+.sec-2-info {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.fast {
+    margin-left: 7%;
+}
+
+.safe {
+    margin-left: 3.5%
+}
+
+
+.main-image {
+    transform: scale(1.7);
+}
+
+
+
+
+
+
+
+
+.section-3 {
+    position: relative;
+    height: 750px;
+    width: 100%;
+    background: url(charts-coffee-cup-938959.jpg);
+    background-size: cover;
+}
+
+.background-cover-2 {
+     background: linear-gradient(to right, #2ad6ff, #0069ff);
+    width: 100%;
+    height: 750px;
+    opacity: .7;
+    position: absolute;
+    z-index: 20;
+}
+
+.sec-3-heading {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 20%;
+    z-index: 2000;
+}
+
+.sec-3-info {
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    width: 70%;
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    z-index: 2000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* START OF CONTACT PAGE */
+
+.contact-1-head {
+    position: absolute;
+    color: white;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 120px;
+    z-index: 2000;
+
+}
+
+.contact-1-subheading {
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    width: 50%;
+    top: 59%;
+    text-align: center;
+    z-index: 2000;
+}
+
+.contact-1-subheading {
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    width: 50%;
+    top: 59%;
+    text-align: center;
+    z-index: 2000;
+}
+
+
+.contact-2 {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.contact-2-heading{
+    position: Absolute;
+    font-size: 70px;
+    top: 10%;
+}
+
+
+.grid-container {
+    width: 70%;
+    height: 50%;
+    left: 50%;
+    top: 20%;
+    position: absolute;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "Name Number Email" "Message Message Message" "Button Submit Submit";
+}
+
+input {
+    margin: 20px;
+}
+
+.top-value {
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 5%;
+    outline: none;
+}
+
+.Message {
+    grid-area: Message;
+     border-radius: 20px;
+    border: 1px solid grey;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 2%;
+    padding-top: 1.3%;
+    margin-top: -2%;
+    outline: none;
+}
+
+.Number {
+    grid-area: Number;
+}
+
+.Email {
+    grid-area: Email;
+}
+
+.Button {
+    grid-area: Button;
+}
+
+.Submit {
+    grid-area: Submit;
+    
+}
+
+.form-submit {
+    height: 50%;
+    background: linear-gradient(to right, #2ad6ff, #0069ff);
+    width: 70%;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: -.3%;
+    margin-left: 15%;
+}
+
+.Name {
+    grid-area: Name;
+}
+
+textarea {
+    resize: none;
+}
+
+.radio-wrapper {
+    font-weight: 100;
+    margin-left: 70px;
+    font-size: 15px;
+    width: 100%;
+}
+
+
+
+
+.radio-info-2 {
+    margin-top: -5%;
+}
+
+
+
+.underline {
+    border: 1px solid black;
+    width: 70%;
+    position: absolute;
+    top: 68%;
+}
+
+
+
+.contact-form-info {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+    position: absolute;
+    top: 75%;
+    }
+
+
+.office-wrapper{
+    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.office-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+.office-info {
+    font-weight: 100;
+    text-align: center;
+}
+
+
+.contact-wrapper{
+    width: 100%;
+   
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-heading {
+     text-align: center;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+.contact-phone {
+    font-weight: 100;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.team-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    z-index: 20000;
+    display: none;
+}
+
+.team-modal2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    z-index: 20000;
+    display: none;
+}
+
+.team-modal3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    z-index: 20000;
+    display: none;
+}
+
+.team-modal4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    z-index: 20000;
+    display: none;
+}
+
+.team-modal-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    background-color: white;
+    height: 614px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.modal-sam{
+    background: url(jpegmini_optimized/IMG_1804.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.modal-zavier {
+    background: url(jpegmini_optimized/IMG_2463.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.modal-scott {
+    background: url(jpegmini_optimized/IMG_9081.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.modal-luke {
+    background: url(jpegmini_optimized/IMG_3228.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.sam-heading {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.sam-position{
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.line {
+    width: 100%;
+    background-color: grey;
+    height: 1px;
+    margin-left: -10px;
+}
+
+.sam-info {
+    font-size: 24px;
+    text-align; center;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+
+.team-modal-close {
+   font-size: 42px;
+    color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 96%;
+    cursor: pointer;
+    
+}
+
+.team-modal-close2{
+   font-size: 42px;
+    color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 96%;
+    cursor: pointer;
+    
+}
+
+.team-modal-close3 {
+   font-size: 42px;
+    color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 96%;
+    cursor: pointer;
+    
+}
+
+.team-modal-close4{
+   font-size: 42px;
+    color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 96%;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+.team-sec-2 {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.meet-heading {
+    font-size: 75px;
+    top: 10%;
+    color: black;
+    position: absolute;
+}
+
+.meet-subheading {
+    font-size: 30px;
+    font-weight: 200;
+    position: absolute;
+    text-align: center;
+    top: 23%;
+}
+
+.team-wrapper {
+    display: grid;
+    width: 70%;
+    height: 40%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 35%;
+    justify-content: space-around;
+}
+
+.sam {
+    background-image: url(jpegmini_optimized/IMG_1804.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.zavier {
+    background-image: url(jpegmini_optimized/IMG_2463.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.luke {
+    background-image: url(jpegmini_optimized/IMG_3228.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.scott {
+    background-image: url(jpegmini_optimized/IMG_9081.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.scott, .sam, .zavier, .luke  {
+    transition: 1s;
+    margin-right: 10px;
+    width: 300px;
+    
+}
+
+
+
+.scott:hover {
+    transform: scale(1.3);
+    transition-duration: 1s;
+}
+
+.luke:hover {
+    transform: scale(1.3);
+    transition-duration: 1s;
+}
+
+.zavier:hover {
+    transform: scale(1.3);
+    transition-duration: 1s;
+}
+
+.sam:hover {
+    transform: scale(1.3);
+    transition-duration: 1s;
+}
+
+.bottom-highlight {
+    transition-duration: 1s;
+    display: none;
+}
+
+.highlight-name {
+   font-size: 32px;
+    text-align: center;
+    margin-top: 2px;
+    
+}
+
+.highlight-position{
+    font-size: 23px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.learn-more {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    transition: .7s;
+    text-decoration: underline;
+}
+
+.learn-more2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    transition: .7s;
+     text-decoration: underline;
+}
+
+.learn-more3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    transition: .7s;
+     text-decoration: underline;
+}
+
+.learn-more4 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    transition: .7s;
+     text-decoration: underline;
+}
+.learn-more:hover,
+.learn-more2:hover,
+.learn-more3:hover,
+.learn-more4:hover
+{
+    transform: scale(1.3);
+    transition: .7s;
+    cursor: pointer;
+    
+}
+
+.sam:hover > .bottom-highlight{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255,255,255,.6);
+    top: 100%;
+    position: absolute;
+    transform: translateY(-100%);
+    display: block;
+
+}
+.scott:hover > .bottom-highlight{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255,255,255,.6);
+    top: 100%;
+    position: absolute;
+    transform: translateY(-100%);
+     display: block;
+
+}
+
+.luke:hover > .bottom-highlight{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255,255,255,.6);
+    top: 100%;
+    position: absolute;
+    transform: translateY(-100%);
+ display: block;
+}
+
+.zavier:hover > .bottom-highlight{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255,255,255,.6);
+    top: 100%;
+    position: absolute;
+    transform: translateY(-100%);
+ display: block;
+}
+
+
+
+
+.history-1 {
+   position: absolute;
+    color: white;
+    top: 40%;
+    text-align: center;
+    font-size: 120px;
+    z-index: 2000;
+}
+
+.history-sec-2 {
+    width: 100%;
+    height: 590px;
+    position: relative;
+    
+}
+
+.sec-2-history-heading {
+ color: black;
+    font-size: 50px;
+
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 10%;
+}
+
+.swiper-container {
+    width: 60%;
+    height: 95%;
+    border: 2px solid grey;
+    border-radius: 40px;
+    top: 30%;
+   
+    background-color: white;
+    
+}
+
+
+.swiper-info {
+    text-align: center;
+    font-size: 26px;
+    width: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    top: 50%;
+    
+}
+
+
+.slide-year-title {
+    position: absolute;
+    font-size: 60px;
+    top: 20%;
+    text-align: center;
+    width: 100%;
+}
+
+.slide-year {
+    font-size: 50px;
+    position: absolute;
+    top: 37.5%;
+    font-weight: 200;
+}
+
+
+.history-sec-3 {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, #2ad6ff, #0069ff);
+}
+
+
+
+
+
+
+
+
+
+/* SCHEDULE PAGE */
+
+
+
+
+#schedule-sec-2 {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.schedule-2-heading {
+   position: absolute; 
+    font-size: 60px;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+.schedule-2-info {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg-modal{
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+    height: 100vh;
+    position: fixed;
+    z-index: 20123123123123;
+    display: none;
+    
+}
+
+
+.modal-content {
+    
+    width: 30%;
+    height: 65%;
+    position: absolute;
+    top: 50%;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #2ad6ff, #0069ff);
+    display: Grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+
+.modal-input {
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.modal-textarea {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    height: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-left: 3%;
+    padding-top: 2%;
+    
+}
+
+.modal-submit {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    border: none;
+    outline: none;
+    width: 40%;
+    height: 68px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.modal-submit:active {
+    margin-top: 25px;
+}
+
+
+.modal-close {
+    position: absolute;
+    top: -1%;
+    left: 95%;
+    color: white;
+    font-size: 43px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+
+.modal-heading {
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+   background-color: #2ad6ff;
+    left: 50%;
+    transform: translate(-50%);
+    top: -6%;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.calander {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10%;
+    grid-row-gap: 10%;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    font-size: 32px;
+    position: absolute;
+    top: 35%;
+ }
+
+.weekend{
+    font-size: 45px;
+}
+
+.weekdays{
+    font-weight: 200;
+    transition: .5s;
+    background: none;
+    border: none;
+    font-size: 40px;
+}
+
+.weekdays:hover {
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+.services-sec-2 {
+    width: 100%;
+    height: 1000px;
+}
+
+.services-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 900px;
+    width: 90%;
+    margin: auto;
+    margin-top: 7%;
+    position: relative;
+        
+    
+}
+
+.taxes {
+    background: url(abundance-bank-notes-bill-164527.jpg);
+    background-size: cover;
+   position: relative;
+    transition: 1s;
+}
+
+
+.taxes:hover > .taxes-word {
+    top: 12%;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.consulting:hover > .consulting-word {
+    top: 12%;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.finances:hover > .finances-word {
+    top: 12%;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.business:hover > .business-word {
+    top: 12%;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+
+.taxes:hover > .services-types,
+.consulting:hover > .services-types,
+.finances:hover > .services-types,
+.business:hover > .services-types{
+    display: block;
+    transition: 1s;
+}
+
+.services-types{
+    left: 50%;
+    top: 20%;
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    z-index: 9999999;
+    display: none;
+    transition: 1s;
+}
+
+.services-item{
+    padding: 2%;
+    transition: 1s;
+}
+
+.taxes-word{
+    font-size: 50px;
+    z-index: 999999;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+}
+
+.consulting-word{
+     font-size: 50px;
+    z-index: 999999;
+    color: white;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+}
+
+.finances-word{
+      font-size: 50px;
+    z-index: 999999;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+}
+
+.business-word{
+    font-size: 50px;
+    z-index: 999999;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+}
+
+.background-cover-services {
+    background: linear-gradient(to right, #2ad6ff, #0069ff);
+    z-index: 99;
+    opacity: .5;
+    position: absolute;
+   width: 90%;
+    height: 900px;
+    margin-left: 5%;
+    pointer-events: none;
+}
+
+.consulting{
+   background: url(agreement-business-businessman-872957.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.finances {
+    background: url(accounting-analytics-balance-209224.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.business {
+    background: url(15120-architecture-blue-269077.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(to right, #2ad6ff, #0069ff);
+    position: relative;
+
+}
+
+
+.footer-heading {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+}
+
+.footer-subheading{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 1%
+}
+
+.footer-links{
+   color: white;
+    font-size: 30px;
+    padding: 5% 10% 0 10%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.footer-links:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.links-footer-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.fab{
+    color: white;
+}
+
+.icon-wrapper{
+    position: absolute;;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+ 
+
+.footer-copyright {
+    color: white;
+    text-align: center;
+    margin-top: 29%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height: 1000px){
+    
+    .modal-content{
+        height: 55%;
+    }
+}
+
+@media screen and (max-height: 850px){
+    
+    .modal-content{
+        height: 58%;
+    }
+}
+
+@media screen and (max-height: 810px){
+    
+    .modal-content{
+        height: 60%;
+    }
+}
+
+@media screen and (max-height: 775px){
+    
+    .modal-content{
+        height: 63%;
+    }
+}
+
+@media screen and (max-height: 735px){
+    
+    .modal-content{
+        height: 66%;
+    }
+}
+
+@media screen and (max-height: 700px){
+    
+    .modal-content{
+        height: 69%;
+    }
+}
+
+
+@media screen and (max-height: 660px){
+    
+    .modal-content{
+        height: 73%;
+    }
+}
+
+@media screen and (max-height: 620px){
+    
+    .modal-content{
+        height: 76%;
+    }
+}
+
+@media screen and (max-height: 600px){
+    
+    .modal-content{
+        height: 79%;
+    }
+}
+
+@media screen and (max-height: 575px){
+    
+    .modal-content{
+        height: 82%;
+    }
+}
+
+@media screen and (max-height: 555px){
+    
+    .modal-content{
+        height: 85%;
+    }
+}
+
+@media screen and (max-height: 540px){
+    
+    .modal-content{
+        height: 88%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1439px){
+    
+    .footer-copyright {
+        margin-top: 44%;
+    }
+
+    .scott, .sam, .zavier, .luke  {
+ width: 275px;
+    
+}
+    
+    .modal-heading {
+        font-size: 31px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1395px){
+    .sec-2-info {
+        font-size: 23px;
+        margin-top:-10%;
+    }
+    
+    .schedule-2-heading {
+        font-size: 50px;
+    }
+    
+    
+   
+
+}
+
+@media screen and (max-width: 1310px){
+    
+    .footer-heading {
+        font-size: 50px;
+        margin-top: 4%
+    }
+    .footer-subheading {
+        font-size: 30px;
+    }
+    
+    .swiper-info{
+        font-size: 23px;;
+    }
+
+    
+    .modal-heading {
+        font-size: 27px;
+    }
+    
+    .modal-content {
+        width: 40%;
+    }
+    
+    .footer-copyright {
+        
+    }
+}
+
+
+
+@media screen and (max-width: 1250px){
+    
+    .team-modal-wrapper {
+        height: 500px;
+    }
+    
+    .scott, .sam, .zavier, .luke  {
+        width: 250px;
+    
+}
+    
+    .schedule-2-heading{
+        left: 52%;
+    }
+    
+    .schedule-2-info {
+        left: 52%;
+    }
+    
+    .footer-copyright {
+        
+    }
+    
+    
+
+}
+
+
+@media screen and (max-width: 1225px){
+  
+    
+}
+
+@media screen and (max-width: 1175px){
+    
+    .footer-copyright {
+        margin-top: 40%;
+        font-size: 20px;
+    }
+    
+    i {
+        transform: scale(.8);
+        margin-left: 5%;
+    }
+    
+    .form-submit {
+        margin-left: 50%;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 1150px){
+     .schedule-2-heading{
+        left: 52%;
+         font-size: 45px;
+    }
+    
+    .schedule-2-info {
+        left: 52%;
+        font-size: 24px;
+    }
+  
+}
+
+@media screen and (max-width: 1125px){
+    
+    
+     .scott, .sam, .zavier, .luke  {
+        width: 225px;
+    
+}
+    
+   
+
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    
+    .footer-links {
+        font-size: 25px;
+    }
+
+    .sec-3-heading{
+        font-size: 45px;
+    }
+    
+    .sec-3-info{
+        font-size: 31px;
+    }
+
+}
+
+@media screen and (max-width: 1085px){
+    
+    
+    .ig {
+        margin-right: 1%;
+    }
+    
+     .sec-2-info{
+        font-size: 20px;
+        margin-top: -16%
+    }
+    
+    .grid-container{
+        left: 47%;
+    }
+    
+     .schedule-2-heading{
+        left: 54%;
+         font-size: 40px;
+    }
+    
+    .schedule-2-info {
+        left: 54%;
+        font-size: 24px;
+        top: 17%;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 1050px){
+    
+    
+    .sam-heading{
+        font-size: 35px;
+    }
+    
+    .sam-position{
+        font-size: 24px;
+    }
+    
+    .sam-info {
+        font-size: 22px;
+    }
+    
+     .scott, .sam, .zavier, .luke  {
+        width: 200px;
+    
+}
+    
+    .swiper-info{
+        font-size: 21px;;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    
+    
+    .ig {
+        margin-right: 1%;
+    }
+    
+    
+    .grid-container {
+        left: 45%
+    }
+    
+    .meet-heading {
+        font-size: 65px;
+    }
+    
+    .meet-subheading {
+        font-size: 27px;
+    }
+   
+    
+    .team-wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    
+    .scott, .sam, .zavier, .luke  {
+        width: 100%;
+        height: 400px;
+    
+}
+    
+    .team-sec-2 {
+        height: 1500px;
+    }
+    
+     .modal-content {
+        width: 50%; 
+    }
+    
+      .schedule-2-heading{
+        left: 48%;
+         font-size: 35px;
+    }
+    
+    .calander {
+        left: 18%;
+    }
+    
+    .schedule-2-info {
+        left: 48%;
+        font-size: 24px;
+        top: 17%;
+    }
+    
+    .footer-copyright {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1050px){
+    
+    
+    .sam-heading{
+        font-size: 30px;
+    }
+    
+    .sam-position{
+        font-size: 20px;
+    }
+    
+    .sam-info {
+        font-size: 20px;
+    }
+    
+    .team-modal-wrapper {
+        height: 475px;
+    }
+
+}
+
+@media screen and (max-width: 950px){
+    
+    .footer-heading {
+        font-size: 40px;
+        margin-top: 8%
+    }
+    .footer-subheading {
+        font-size: 25px;
+        margin-top: 2%;
+    }
+    
+    
+    
+    .footer-links{
+        font-size: 23px;
+    }
+    
+    .footer-copyright{
+        margin-top: 55%;
+    }
+    
+    .icon-wrapper {
+        margin-top: 7%
+    }
+    
+    .grid-container {
+        left: 42%
+    }
+    
+    .contact-phone, .contact-heading {
+        margin-right: 15%;
+    }
+
+}
+
+
+@media screen and (max-width: 975px){
+    
+   
+    
+}
+
+
+@media screen and (max-width: 900px){
+    
+    .sec-3-info {
+        font-size: 29px;
+    }
+    
+    .contact-phone, .contact-heading {
+        margin-right: 25%;
+    }
+    
+     .grid-container {
+        left: 39%
+    }
+    
+    .team-modal-wrapper {
+        height: 400px;
+    }
+    
+    .sec-2-history-heading {
+        font-size: 45px;
+    }
+    
+      .swiper-info{
+        font-size: 19px;;
+    }
+
+     .schedule-2-heading{
+        left: 52%;
+         font-size: 35px;
+    }
+   
+    
+    .schedule-2-info {
+        left: 52%;
+        font-size: 24px;
+        top: 17%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 850px){
+    
+      .sam-heading{
+        font-size: 27px;
+    }
+    
+    .sam-position{
+        font-size: 17px;
+    }
+    
+    .sam-info {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 860px){
+    
+    
+  .schedule-2-heading{
+        left: 53.5%;
+         font-size: 30px;
+    }
+   
+    
+    .schedule-2-info {
+        left: 53.5%;
+        font-size: 23px;
+        top: 17%;
+    }
+    
+}
+
+
+@media screen and (max-width: 830px){
+    
+    .meet-heading {
+        font-size: 60px;
+    }
+}
+
+
+
+
+
+
+
+
